@@ -1,0 +1,7 @@
+Database setup
+
+
+database name: krishinpillay_blog
+
+Tables:
+CREATE TABLE `krishinpillay_blog`.`blog_posts` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `title` VARCHAR(255) CHARACTER SET latin1 COLLATE latin1_general_ci NOT NULL , `post` TEXT CHARACTER SET latin1 COLLATE latin1_general_ci NOT NULL , `author_id` INT(11) NOT NULL , `date_posted` DATE NOT NULL , UNIQUE `blog_posts_id_idx` (`id`(11))) ENGINE = InnoDB;
